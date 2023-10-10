@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/testimonial.css')}}">
+
+</head>
+<body>
+    <div class="testimonial">
+        <section class="testimonial" id="testimonial">
+            <h2 class="heading">Testimonial</h2>
+    
+            <form action="/testimonial" method="POST" enctype="multipart/form-data">
+    
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name">
+                </div>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Comment"></textarea>
+                <br>
+                <!--<input type="file" name="img">-->
+                <br>
+                <input type="submit" value="Send" class="btn">
+            </form>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akinpelu.me</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Enoch Akinpelu</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#home">Store</a>
+            <a href="#contact">Contact </a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Main-page  section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Ifeoluwa Enoch</h1>
+            <p>I hold a degree in Computer Science from Osun State University, Osogbo, Nigeria.
+            My journey is guided by a deep passion for technology and community building. I'm dedicated to both innovation
+         and education. I not only excel in my work but also train and mentor aspiring individuals. You can reach out to me via my social handles, let's connect and collaborate for a brighter future.</p>
+
+                <div class="social-media">
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://wa.me/message/HUT35OHG37IBF1"><i class="bx bxl-whatsapp"></i></a>
+                    <a href="https://github.com/ENOCHAKINPELU"><i class="bx bxl-github"></i></a>
+                </div>
+
+                <a href="{{url_for('static',filename='file/Akinpelu I.E CV (1).pdf')}}" class="btn" id="d">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Python Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class="bx bx-briefcase-alt-2"></i>
+                    <h3>Project Manager</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class="bx bx-code-block"></i>
+                    <h3>ML Engineer</h3>
+                </div>
+                
+                <div class="profession" style="--i:3;">
+                    <i class="bx bx-laptop"></i>
+                    <h3>IT Consultant</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="{{url_for('static',filename='images/my7.png')}}" alt="">
+        </div>
+
+    </section>
+
+    <!-- Services section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bx-briefcase-alt-2"></i>
+                <h3>Project Management</h3>
+                <p>Streamline Your Projects with my Proven Expertise. From Planning to Execution, I Ensure Success. 
+                    Connect for efficient Project Management Solutions.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class="bx bx-code-block"></i>
+                <h3>Programming Training</h3>
+                <p>Unlock your programming potential with my expert-led courses. From beginners to advanced level, 
+                    master coding, skills for a tech-driven future!</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class="bx bx-code-block"></i>
+                <h3>Research Work</h3>
+                <p>Simplify AI success. I provide expert guidance for AI projects and research. 
+                    Elevate your AI endeavors with my professional assistance.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="{{url_for('static',filename='images/stock.jpg')}}" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Stock Market Prediction</h4>
+                    <p>Developed a machine learning model to predict stock market trends and make informed investment decisions</p>
+                </div>
+
+            </div>
+            <div class="portfolio-box">
+                <img src="{{url_for('static',filename='images/bank churn.jpg')}}" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Bank Customer Churn Prediction</h4>
+                    <p>Developed a machine learning model to predict whether a bank customer is likely to churn or stay with the bank.</p>
+                </div>
+
+            </div>
+            <div class="portfolio-box">
+                <img src="{{url_for('static',filename='images/v.jpg')}}" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Malicious URL Detection</h4>
+                    <p>Conducted feature engineering and model training using 7 machine learning algorithms.</p>
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="{{url_for('static',filename='images/clearance.jpg')}}" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Student Clearance System</h4>
+                    <p>Developed a streamlined student clearance system, enhancing efficiency and reducing administrative workload for educational institutions.</p>
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="{{url_for('static',filename='images/elearning.jpg')}}" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>E-Learning Web APP</h4>
+                    <p>I'm currently managing the development of an e-learning web app, facilitating remote education and fostering continuous learning oppurtunities.</p>
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="{{url_for('static',filename='images/parking.jpg')}}" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Intelligent Car Space Counter</h4>
+                    <p>Designed an intelligent car parking space model, optimizing parking management and resource allocation for a seamless
+                        parking experience.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="{{url_for('static',filename='images/racing.jpg')}}" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Car Racing Game</h4>
+                    <p>I managed the successful development of an exciting racing game, overseeing development, ensuring quality, and delivering 
+                        thrilling gameplay experiences.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial section -->
+
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    {% for testimonial in t %}
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="{{url_for('static',filename='images/blank.png')}}" alt="">
+                        <h3>{{ testimonial.name }}</h3>
+                        <p>"{{ testimonial.message }}"</p>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact section-->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="/contact" method="post">
+
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Enoch | All Righs Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="{{url_for('static',filename='js/script.js')}}"></script>
+</body>
+
+</html>

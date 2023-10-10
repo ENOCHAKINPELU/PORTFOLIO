@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enoch's Resume</title>
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/resume.css')}}">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="left_side">
+            <div class="profileText">
+                <div class="imgBx">
+                    <img src="{{url_for('static',filename='images/profile.png')}}">
+                </div>
+                <h2>Akinpelu Ifeoluwa Enoch<br><span>Python Developer</span></h2>
+            </div>
+
+            <div class="contactInfo">
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="bx bx-phone"></i></span>
+                        <span class="text">+234 708 6693 217</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="bx bx-envelope"></i></span>
+                        <span class="text">ifeoluwaakinpelu05@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="bx bx-location-plus"></i></span>
+                        <span class="text">Osogbo, Nigeria.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contactInfo education">
+                <h3 class="title">Education</h3>
+                <ul>
+                    <li>
+                       <h5>2019 - 2023</h5>
+                       <h4>B.sc in Computer Science</h4>
+                       <h4>Osun State University</h4>
+                       <h4>Second Class Upper</h4>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contactInfo language">
+                <h3 class="title">Professional Skills</h3>
+                <ul>
+                    <li>
+                        <span class="text">Python</span>
+                        <span class="percent">
+                            <div style="width: 90%"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Machine learning</span>
+                        <span class="percent">
+                            <div style="width: 70%"></div> 
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Computer Vision</span>
+                        <span class="percent">
+                            <div style="width: 50%"></div> 
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Flask</span>
+                        <span class="percent">
+                            <div style="width: 70%"></div> 
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">HTML</span>
+                        <span class="percent">
+                            <div style="width: 80%"></div> 
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">CSS</span>
+                        <span class="percent">
+                            <div style="width: 70%"></div> 
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Microsoft Packages</span>
+                        <span class="percent">
+                            <div style="width: 85%"></div> 
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contactInfo language">
+                <h3 class="title">Languages</h3>
+                <ul>
+                    <li>
+                        <span class="text">English</span>
+                        <span class="percent">
+                            <div style="width: 90%"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Yoruba</span>
+                        <span class="percent">
+                            <div style="width: 80%"></div> 
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="right_side">
+            <div class="about">
+                <h2 class="title2">Profile</h2>
+                <p>I'm a Python Developer with 2years+ of hands-on experience in crafting efficient solutions. I'm proficient in Python framework (Flask, pandas, tensorflow, scikit-learn, keras, opencv)
+                    and databases. Committed to clean code, scalability, and user-centric design. Adept at problem-solving and delivering high-quality code on time. Ready to contribute 
+                    to your project's success.
+                </p>
+            </div>
+            <div class="about">
+                <h2 class="title2">Projects</h2>
+                <div class="box">
+                    <div class="project">
+                        <h5>Stock Market Prediction</h5>
+                        <ul>
+                            <li><p><span class="b">Description: </span>Developed a machine learning model to predict stock market trends and make informed investment decisions</p></li>
+                            <li><p><span class="b">Role: </span>Conducted historical data analysis, implemented time series forecasting techniques and built the system using streamlit.</p></li>
+                            <li><p><span class="b">Technologies Used: </span>Python, Pandas, Tensorflow, Numpy, Prophet.</p></li>
+                            <li><p><span class="b">Results: </span>Acheived a prediction accuracy of 75%, assisting investors in making data-driven choices.</p></li>
+                            <li><p><span class="b">Link: </span><a href="https://stockpediction.streamlit.app/">https://stockpediction.streamlit.app/</a></p></li>
+                        </ul>
+                    </div>
+
+                    <div class="project">
+                        <h5>Bank Customer Churn Prediction</h5>
+                        <ul>
+                            <li><p><span class="b">Description: </span>Developed a machine learning model to predict stock market trends and make informed investment decisions</p></li>
+                            <li><p><span class="b">Role: </span>Developed a machine learning model to predict whether a bank customer is likely to churn or stay with the bank.</p></li>
+                            <li><p><span class="b">Technologies Used: </span>Python, Pandas, Numpy, Tensorflow, scikit-learn</p></li>
+                            <li><p><span class="b">Results: </span>: Achieved an accuracy of 85%, helping the bank reduce customer churn.</p></li>
+                            <li><p><span class="b">Link: </span><a href="https://github.com/ENOCHAKINPELU/Bank-customer-churn-prediction">https://Bank customer churn prediction</a></p></li>
+                        </ul>
+                    </div>
+
+                    <div class="project">
+                        <h5>Malicious URL Detection</h5>
+                        <ul>
+                            <li><p><span class="b">Description: </span>Developed a machine learning model to identify malicious URLs and protect users from potential cyber threats.</p></li>
+                            <li><p><span class="b">Role: </span>Conducted feature engineering and model training using 7 machine learning algorithms.</p></li>
+                            <li><p><span class="b">Technologies Used: </span>Python, Pandas, Numpy, scikit-learn, URL analysis techniques</p></li>
+                            <li><p><span class="b">Results: </span>Achieved a detection accuracy of 91% for malicious URLs.</p></li>
+                            <li><p><span class="b">Link: </span><a href="https://github.com/ENOCHAKINPELU/MALICIOUS-URL-DETECTION">https://maclicious url detection</a></p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="print">
+        <button id="print-button">Print Resume</button>
+    </div>
+    
+
+    <script>
+        // Function to handle printing when the "Print Resume" button is clicked
+        document.getElementById("print-button").addEventListener("click", function() {
+            window.print();
+        });
+    </script>
+</body>
+</html>
+
